@@ -11,7 +11,7 @@ const PopularToursTwo = ({ toursPage = false }) => {
 const [page, setPage] = useState(1);
 
 const fetchPlanets = async () => {
-  const res = await fetch(`https://63b3f31cea89e3e3db51e15b.mockapi.io/api/v1/hotels?page=${page}&limit=5`);
+  const res = await fetch(`https://63b3f31cea89e3e3db51e15b.mockapi.io/api/v1/hotels?page=${page}&limit=8`);
   return res.json();
 }
 
