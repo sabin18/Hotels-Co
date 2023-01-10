@@ -35,9 +35,9 @@ const NavItem = ({ item = {} }) => {
           display: expand ? "block" : "none",
         }}
       >
-        {subNavItems.map((subItem) => (
+        {/* {subNavItems.map((subItem) => (
           <SubNavItem subItem={subItem} key={subItem.id} />
-        ))}
+        ))} */}
       </ul>
     </li>
   );
