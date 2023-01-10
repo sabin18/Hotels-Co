@@ -79,9 +79,9 @@ if (isError) {
             </Col>
           )))}
 
-<div>{isFetchingNextPage ? <CatalogMagic />: null}</div>            
+<div className="mx-4">{isFetchingNextPage ? <CatalogMagic />: null}</div>            
 
-<div>{isFetching && !isFetchingNextPage ? <CatalogMagic /> : null}</div>
+<div className="mx-4">{isFetching && !isFetchingNextPage ? <CatalogMagic /> : null}</div>
         </Row>
       </Container>
     </section>

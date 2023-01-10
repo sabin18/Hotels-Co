@@ -8,10 +8,8 @@ const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
 const settings = {
   lazyload: true,
-  nav: true,
-  navPosition: "bottom",
+  nav: false,
   mouseDrag: true,
-  items: 1,
   autoplay: true,
   autoHeight: true,
   controls: false,
@@ -60,14 +58,15 @@ const TestimonialOne = ({ aboutPage = false }) => {
           <h2 className="section-title__title">{title}</h2>
         </div>
         <Row>
-          <Col xl={12}>
+          <Col xl={12} lg={6}>
             <div className="testimonial-one__carousel">
-              <TinySlider settings={settings}>
+              <TinySlider settings={settings} className="d-flex mx-4">
                 {testimonials.map((testimonial) => (
+                  <div key={testimonial.id} className="d-flex">
                   <SingleTestimonial
-                    key={testimonial.id}
                     testimonial={testimonial}
                   />
+                  </div>
                 ))}
               </TinySlider>
             </div>

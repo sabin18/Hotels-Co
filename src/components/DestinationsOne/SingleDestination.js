@@ -10,7 +10,8 @@ const SingleDestination = ({ destination = {} }) => {
       <div className="destinations-one__single">
         <div className="destinations-one__img">
           <Image
-             src={"https://assets.hospitalityonline.com/photos/employers/241693/537233_l.jpg"}
+             src={image}
+             style={{height:"200px"}}
             alt=""
           />
           <div className="destinations-one__content">
