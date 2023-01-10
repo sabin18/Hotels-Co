@@ -26,12 +26,13 @@ const queryClient = new QueryClient()
 const MyApp = ({ Component, pageProps }) => {
   return (
     <React.StrictMode>
-     {/* <ContextProvider> */}
+     <ContextProvider>
         <QueryClientProvider client={queryClient}>
       <Component {...pageProps} />
       </QueryClientProvider>
+      </ContextProvider>
       </React.StrictMode>
-    // </ContextProvider>
+    
   );
 };
 
