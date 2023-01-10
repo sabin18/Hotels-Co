@@ -2,7 +2,10 @@
 Hotels&amp;Co 
 
 ## how to run the application:
-**yarn run dev**
+``````
+yarn run dev
+```````
+- Localhost link: http://locahost:3000
 
 # Strategy to build the application:
 
@@ -70,3 +73,6 @@ Hotels&amp;Co
 - launching application 
 - upgrade and fixing somewhere there will need chages according to user experience 
 - test the chnages on test sever before publishing or adding new changes to make sure that there will be no crushing in production
+
+- Author:
+ ### izere Roger Sabin 
