@@ -1,9 +1,5 @@
-import SingleTour from "@/components/hotelsComponents/SingleHotels";
-import popularTours from "@/data/popularTours";
 import { tourDetailsLeft } from "@/data/tourDetailsPage";
 import React, { useState } from "react";
-
-import { Col, Row } from "react-bootstrap";
 import ReviewForm from "./ReviewForm";
 import ReviewScoreBar from "./ReviewScoreBar";
 import SingleComment from "./SingleComment";

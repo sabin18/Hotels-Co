@@ -1,11 +1,11 @@
-import popularToursTwo from "@/data/popularToursTwo";
+// import popularToursTwo from "@/data/popularToursTwo";
 import React,{ useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SingleTour from "./SingleHotels";
 import { useQuery,useInfiniteQuery } from 'react-query'
 import CatalogMagic from "../Preloader/postLoader";
 
-const { tagline, title, popularTours } = popularToursTwo;
+// const { tagline, title, popularTours } = popularToursTwo;
 
 const PopularToursTwo = ({ toursPage = false }) => {
 const [page, setPage] = useState(1);
@@ -61,8 +61,8 @@ if (isError) {
       <Container>
         {!toursPage && (
           <div className="section-title text-center">
-            <span className="section-title__tagline">{tagline}</span>
-            <h2 className="section-title__title">{title}</h2>
+            {/* <span className="section-title__tagline">{tagline}</span>
+            <h2 className="section-title__title">{title}</h2> */}
           </div>
         )}
         <Row>
