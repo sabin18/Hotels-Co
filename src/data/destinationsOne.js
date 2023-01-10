@@ -1,14 +1,14 @@
 const destinationsOne = [
   {
     id: 1,
-    image: "destination-1-1.png",
+    image: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-guestroom-0034-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
     title: "Spain",
     tours: 6,
     col: 3,
   },
   {
     id: 2,
-    image: "destination-1-2.png",
+    image: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-pool-0056-hor-pano.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=2280px:*",
     title: "Thailand",
     tours: 6,
     subTitle: "Wildlife",
@@ -16,21 +16,21 @@ const destinationsOne = [
   },
   {
     id: 3,
-    image: "destination-1-3.png",
+    image: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-lobby-0033-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
     title: "Africa",
     tours: 6,
     col: 3,
   },
   {
     id: 4,
-    image: "destination-1-4.png",
+    image: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-entrance-0032-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
     title: "Australia",
     tours: 6,
     col: 6,
   },
   {
     id: 5,
-    image: "destination-1-5.png",
+    image: "https://cache.marriott.com/content/dam/marriott-renditions/KGLMC/kglmc-exterior-0030-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
     title: "Switzerland",
     tours: 6,
     subTitle: "Adventure",

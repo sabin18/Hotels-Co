@@ -9,7 +9,7 @@ const SingleTour = ({ hotels = {}, userSelect = false }) => {
     <div>
       <div
         style={{ userSelect: userSelect ? "unset" : "none" }}
-        className="bg-slate-200 popular-tours__single pt-0"
+        className="bg-slate-200 popular-tours__single pt-0 shadow-sm"
       >
         <div className="popular-tours__img">
           <Image
@@ -24,9 +24,9 @@ const SingleTour = ({ hotels = {}, userSelect = false }) => {
             </Link>
           </div>
         </div>
-        <div className="popular-tours__content font-bold text-xs pt-2">
-          <h5 className="font-bold text-xs pt-0">
-          <Link  href={{ pathname: "/tour-details", query: { id:id } }}>{names}</Link>
+        <div className="popular-tours__content font-bold text-slate-700 text-xs pt-2">
+          <h5 className="font-bold text-xs pt-0 text-slate-700">
+          <Link  href={{ pathname: "/tour-details", query: { id:id } }} className="text-slate-700">{names}</Link>
           </h5>
           <p className="popular-tours__rate">
             <span>${price}</span> / Per Night
@@ -34,7 +34,7 @@ const SingleTour = ({ hotels = {}, userSelect = false }) => {
           <div className="popular-tours__stars">
             <i className="fa fa-star"></i> {ratings}
           </div>
-          <ul className="popular-tours__meta list-unstyled">
+          <ul className="popular-tours__meta list-unstyled bg-slate-400">
               <li>
                 <Link  href={{ pathname: "/tour-details", query: { id:id } }}>{location}</Link>
               </li>

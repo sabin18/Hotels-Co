@@ -11,7 +11,7 @@ const SingleTestimonial = ({ testimonial }) => {
 
   return (
     <div>
-      <div style={{ userSelect: "none" }} className="testimonial-one__single flex-d">
+      <div style={{ userSelect: "none" }} className="testimonial-one__single px-4">
         <div className="testimonial-one__img">
           <Image
             src={image}

@@ -16,7 +16,7 @@ const TourDetailsOne = ({data={}}) => {
             <Col xl={12}>
               <div className="tour-details__top-inner">
                 <div className="tour-details__top-left">
-                  <h2 className="tour-details__top-title">{data?.names}</h2>
+                  <h2 className="tour-details__top-title text-xs">{data?.names}</h2>
                   <p className="tour-details__top-rate">
                     <span>${data?.price}</span> / Per Person
                   </p>
@@ -25,16 +25,16 @@ const TourDetailsOne = ({data={}}) => {
                   <ul className="list-unstyled tour-details__top-list">
                     <li>
                       <div className="icon">
-                        <span className="icon-clock"></span>
+                        <span className="fa fa-heart"></span>
                       </div>
-                      <div className="text">
+                      <div className="text text-xs">
                         <p>Likes</p>
                         <h6>{data?.likes}</h6>
                       </div>
                     </li>
                     <li>
                       <div className="icon">
-                        <span className="icon-user"></span>
+                        <span className="fa fa-bed"></span>
                       </div>
                       <div className="text">
                         <p>BedRooms</p>
