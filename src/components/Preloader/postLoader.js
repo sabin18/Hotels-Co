@@ -2,7 +2,7 @@ import React from 'react'
 import ContentLoader from 'react-content-loader'
 
 const CatalogMagic = ({
-  width = 1000,
+  width = 1100,
   heading = { width: 100, height: 20 },
   row = 2,
   column = 4,
